@@ -1,20 +1,20 @@
-# flex
+# Flex 布局
 
-参考文章：
-
-http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
-
-https://www.ruanyifeng.com/blog/2015/07/flex-examples.html
+> 参考文章：  
+> http://www.ruanyifeng.com/blog/2015/07/flex-grammar.> html  
+> https://www.ruanyifeng.com/blog/2015/07/flex-examples.html
 
 弹性布局，可以给盒状模型最大的灵活性  
 `display: flex`  
 行内元素也可以使用 flex 布局  
-`display: inline-flex`
+`display: inline-flex`  
 webkit 内核的浏览器，需要加上-webkit 前缀
 
 ```
-dislay: -wibkit-flex;
-dislay: flex;
+.box{
+    dislay: -wibkit-flex;
+    dislay: flex;
+}
 ```
 
 ## flex 容器
